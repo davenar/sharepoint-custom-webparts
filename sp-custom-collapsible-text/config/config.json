@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-custom-collapsible-text-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sp-customCollapsibleText/SpCustomCollapsibleTextWebPart.js",
+          "manifest": "./src/webparts/sp-customCollapsibleText/SpCustomCollapsibleTextWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpCustomCollapsibleTextWebPartStrings": "lib/webparts/sp-customCollapsibleText/loc/{locale}.js"
+  }
+}

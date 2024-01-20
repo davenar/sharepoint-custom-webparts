@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-custom-collapsible-image-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sp-customCollapsibleImage/SpCustomCollapsibleImageWebPart.js",
+          "manifest": "./src/webparts/sp-customCollapsibleImage/SpCustomCollapsibleImageWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpCustomCollapsibleImageWebPartStrings": "lib/webparts/sp-customCollapsibleImage/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

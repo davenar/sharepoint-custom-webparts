@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-custom-collapsible-image-client-side-solution",
+    "id": "3122337e-ad91-4d67-8489-421e58cd8bb5",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "davenar",
+      "websiteUrl": "https://github.com/davenar/",
+      "privacyUrl": "https://github.com/davenar/",
+      "termsOfUseUrl": "https://github.com/davenar/",
+      "mpnId": "Undefined-1.13.0"
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-custom-collapsible-image.sppkg"
+  }
+}
